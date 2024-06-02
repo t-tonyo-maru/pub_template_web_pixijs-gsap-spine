@@ -1,0 +1,30 @@
+{
+  "name": "pub_template_web_pixijs-gsap-spine",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write 'src/**/*.{js,ts,json}'",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@pixi/spine-pixi": "^1.0.10",
+    "@types/node": "^20.12.12",
+    "gsap": "^3.12.5",
+    "lil-gui": "^0.19.2",
+    "pixi.js": "^8.1.5",
+    "prettier": "^3.2.5"
+  }
+}
