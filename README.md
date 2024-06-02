@@ -1,5 +1,12 @@
 # pub_pub_template_web_pixijs-gsap-spine
 
+## Summary
+
+This repository is starter template of [PixiJS v8](https://pixijs.com/) + [GSAP](https://gsap.com/) + [Spine](https://esotericsoftware.com/).
+
+- [explanatory article (ja)](https://zenn.dev/t_tonyo_maru/articles/b5d96768a38368/)
+- [Sample page](https://t-tonyo-maru.github.io/pub_template_web_pixijs-gsap-spine/)
+
 ## Development environment
 
 | tool | version |
@@ -53,7 +60,7 @@
 ## Directory structure
 
 ```
-.
+/
 ├── .env
 ├── .env.sample
 ├── README.md
