@@ -6,7 +6,8 @@ import { Spine } from '@pixi/spine-pixi'
 import GUI from 'lil-gui'
 import './reset.css'
 
-const VITE_GITHUB_PAGES_PATH = import.meta.env.VITE_GITHUB_PAGES_PATH || '/'
+const VITE_GITHUB_PAGES_PATH =
+  import.meta.env.BASE_URL !== '/' ? `${import.meta.env.BASE_URL}` : ''
 
 const app = new PIXI.Application()
 

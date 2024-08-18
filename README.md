@@ -26,11 +26,10 @@ This repository is starter template of [PixiJS v8](https://pixijs.com/) + [GSAP]
 ## Quik Start
 
 1. Match your environment to the Development environment.
-2. Setup Github pages path. (If don't use github pages, you can skip 2 step.)
+2. Setup Github pages path. (If don't use github pages, you can skip this step.)
    1. Create /.env
    2. Write `VITE_GITHUB_PAGES_PATH=/github-pages-path` in .env.
       - Please refer .env.sample.
-   3. Uncomment `base: process.env.VITE_GITHUB_PAGES_PATH || '/'` in vite.config.ts
 3. Run `npm i` command
 4. Run `npm run dev` command
 
@@ -39,11 +38,10 @@ This repository is starter template of [PixiJS v8](https://pixijs.com/) + [GSAP]
 1. Setup Github Pages.
 2. Create /.env .
    - Write `VITE_GITHUB_PAGES_PATH=/github-pages-path`.
-3. Uncomment `base: process.env.VITE_GITHUB_PAGES_PATH || '/'` in vite.config.ts
-4. Run `npm run build`.
+3. Run `npm run build`.
    - If the command completes successfully, dist directory generated at root directory.
-5. Rename dist directory to docs.
-6. Push branch that setuped for Github Pages.
+4. Rename dist directory to docs.
+5. Push branch that setuped for Github Pages.
 
 ## Github-pages deploy check list
 
