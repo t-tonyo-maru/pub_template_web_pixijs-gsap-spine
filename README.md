@@ -82,3 +82,6 @@ This repository is starter template of [PixiJS v8](https://pixijs.com/) + [GSAP]
 - Pixi.js
   - [SpineBoy Adventure](https://pixijs.com/8.x/tutorials/spine-boy-adventure#1)
   - [pixijs/open-games](https://github.com/pixijs/open-games/tree/main)
+- spine-pixi-v8
+  - [spine-pixi-v8ランタイムをリリースしました](https://ja.esotericsoftware.com/blog/spine-pixi-v8-runtime-released)
+  - [spine-pixiランタイム ドキュメント](https://ja.esotericsoftware.com/spine-pixi)
