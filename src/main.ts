@@ -1,8 +1,7 @@
-import '@pixi/spine-pixi'
 import * as PIXI from 'pixi.js'
 import { gsap } from 'gsap'
 import { PixiPlugin } from 'gsap/PixiPlugin'
-import { Spine } from '@pixi/spine-pixi'
+import { Spine } from '@esotericsoftware/spine-pixi-v8'
 import GUI from 'lil-gui'
 import './reset.css'
 

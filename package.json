@@ -20,11 +20,11 @@
     "vitest": "^1.6.0"
   },
   "dependencies": {
-    "@pixi/spine-pixi": "^2.0.2",
+    "@esotericsoftware/spine-pixi-v8": "^4.2.66",
     "@types/node": "^20.12.12",
     "gsap": "^3.12.5",
-    "lil-gui": "^0.19.2",
-    "pixi.js": "^8.2.0",
+    "lil-gui": "^0.20.0",
+    "pixi.js": "^8.5.2",
     "prettier": "^3.2.5"
   }
 }
